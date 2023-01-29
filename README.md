@@ -48,32 +48,3 @@ Esta es una de las razones por las que elegí este Framework y por las que lo he
 Si está familiarizado con el idioma Gherkin, lo entenderá fácilmente. Las características son legibles y pueden ser bien interpretadas por cualquier equipo de desarrollo o control de calidad.
 
 Y por último, pero no menos importante, Karate ha incluido la automatización de pruebas de interfaz de usuario / automatización de pruebas móviles, pruebas de contrato (pruebas simuladas) con la forma simple de Gherkin. Para ver más -> [haga clic aquí](https://github.com/karatelabs/karate)
-
-### Estructura del proyecto
-
-    ├── src
-    │   ├── test
-    │       ├── java
-    │           ├── com.back.inditex.qa
-    │           │      ├── getpetfindbystatus
-    │           │          ├── dataTest.json
-    │           │          ├── get-pet-findByStatus.feature
-    │           │          ├── PetFindbyStatusRunner
-    │           │      ├── postcreateuser
-    │           │          ├── createuser.feature
-    │           │          ├── CreateUserRunner
-    │           │          ├── dataTest.json
-    │           │          ├── request.json
-    │           │      ├── resources
-    │           │          ├── Utils
-    │           │          ├── GenerateCucumberReportParallel
-    │           ├── karate-config
-    │           ├── logback-test
-    │     
-    │
-    ├── tarjet
-    │    ├── cucumber-reports
-    │        ├── getpetfindbystatus
-    │             ├── dev
-    │                  ├── Fecha de ejecución
-    │                       ├── cucumber-html-reports
